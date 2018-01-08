@@ -33,11 +33,11 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
--The layout only currently works with iPhone 7.
--I didn't know how to update the view controller from things I changed in the settings view controller. I figured it out by making a viewDidAppear method.
--The UserDefaults took me a while to understand, but now I do.
--I still don't know how to change the font for the navigation controller and the segmented control.
--I've tried to learn Swift before but was always confused since it's very different from languages I've used. However in this project I learned a lot more about the layout of how the storyboard and the code work together.
+*The layout only currently works with iPhone 7.
+*I didn't know how to update the view controller from things I changed in the settings view controller. I figured it out by making a viewDidAppear method.
+*The UserDefaults took me a while to understand, but now I do.
+*I still don't know how to change the font for the navigation controller and the segmented control.
+*I've tried to learn Swift before but was always confused since it's very different from languages I've used. However in this project I learned a lot more about the layout of how the storyboard and the code work together.
 
 
 ## License
