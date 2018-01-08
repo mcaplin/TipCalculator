@@ -18,6 +18,8 @@ class SettingsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        
         let defaults = UserDefaults.standard
         //let tipPercentages = [0.10, 0.15, 0.20, 0.0]
         //defaults.set(0.1, forKey: "field1")
@@ -36,6 +38,8 @@ class SettingsViewController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
+        
+        field1.becomeFirstResponder()
         let defaults = UserDefaults.standard
         let f1 = String(format: "%.0f", 100 * defaults.double(forKey: "field1"))
         field1.text = f1
